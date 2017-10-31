@@ -1,2 +1,2 @@
 # Computer-Graphics
-Repo containing basic C Graphic Codes.
+Repository containing basic C Graphic Codes.
