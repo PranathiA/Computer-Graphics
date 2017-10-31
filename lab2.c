@@ -13,8 +13,6 @@ else
  return 0;
 }
 
-
-
 void bresenham(int x1,int y1,int x2,int y2)
 {
 int x,y,dx,dy,swap,temp,s1,s2,p,i;
@@ -55,8 +53,6 @@ for(i=0;i<dx;i++)
 putpixel(x2,y2,RED);
 }
 
-
-
 void pixel(int xcenter,int ycenter,int x,int y)
 {
 	putpixel(xcenter + x, ycenter + y, WHITE);
@@ -68,7 +64,6 @@ void pixel(int xcenter,int ycenter,int x,int y)
     putpixel(xcenter + y, ycenter - x, WHITE);
     putpixel(xcenter - y, ycenter - x, WHITE);
 }
-
 
 void midpointcircle(int xcenter,int ycenter,int radius)
 {
@@ -94,7 +89,6 @@ void midpointcircle(int xcenter,int ycenter,int radius)
     }
 
 }
-
 
 void main()
 {
